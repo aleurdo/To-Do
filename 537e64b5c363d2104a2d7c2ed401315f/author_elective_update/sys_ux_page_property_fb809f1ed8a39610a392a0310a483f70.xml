@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="">3f809f1e0fa39610247cb52231fddd7f</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 15:16:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>fb809f1ed8a39610a392a0310a483f70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>sys_ux_page_property_fb809f1ed8a39610a392a0310a483f70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 15:16:09</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1557963_to_do_0.3f809f1e0fa39610247cb52231fddd7f.root.globalSearchDataConfigId</unique_name>
+        <value>f3809f1e8aa39610f84e465301e4e978</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</application>
+        <file_path/>
+        <instance_id>133d329edb6ef110ae4c9027c59619e7</instance_id>
+        <instance_name>dev216782</instance_name>
+        <name>sys_ux_page_property_fb809f1ed8a39610a392a0310a483f70</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>globalSearchDataConfigId</name><page display_value="">3f809f1e0fa39610247cb52231fddd7f</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-08 15:16:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>fb809f1ed8a39610a392a0310a483f70</sys_id><sys_mod_count>0</sys_mod_count><sys_name>globalSearchDataConfigId</sys_name><sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package><sys_policy/><sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope><sys_update_name>sys_ux_page_property_fb809f1ed8a39610a392a0310a483f70</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-08 15:16:09</sys_updated_on><type>string</type><unique_name>x_1557963_to_do_0.3f809f1e0fa39610247cb52231fddd7f.root.globalSearchDataConfigId</unique_name><value>f3809f1e8aa39610f84e465301e4e978</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-318675737</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 16:23:52</sys_created_on>
+        <sys_id>c4106b12c32796104a2d7c2ed4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e65fe66c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 16:23:52</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>84106b12e32796100ed8b8837dff2362</update_guid>
+        <update_guid_history>84106b12e32796100ed8b8837dff2362:-318675737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 16:23:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>10155df4d8d24dcc83df3a5dbd60ae10</sys_id>
+        <sys_metadata>fb809f1ed8a39610a392a0310a483f70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_scope_delete display_value="">37862920a2144a6d8e3857ce522cd099</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_fb809f1ed8a39610a392a0310a483f70</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_fb809f1ed8a39610a392a0310a483f70">c4106b12c32796104a2d7c2ed4013162</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 16:23:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

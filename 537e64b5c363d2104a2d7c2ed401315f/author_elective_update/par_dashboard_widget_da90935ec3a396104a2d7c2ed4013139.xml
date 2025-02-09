@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">8290935ec3a396104a2d7c2ed4013104</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"To Do","sourceType":"table","tableOrViewName":"x_1557963_to_do_0_to_do","filterQuery":"assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","id":"tablex_1557963_to_do_0_to_do1739027777625","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"All","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1557963_to_do_0_to_do1739027777625","id":"tablex_1557963_to_do_0_to_do17390277776251739027777628","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":true,"contextMenuActions":[],"componentId":"gq5jrcm0","id":"description","value":"","propLabel":"Description","showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT","description":""}</component_props>
+        <h>9</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 15:16:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da90935ec3a396104a2d7c2ed4013139</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>par_dashboard_widget_da90935ec3a396104a2d7c2ed4013139</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 15:45:06</sys_updated_on>
+        <visualization/>
+        <w>1</w>
+        <widget_props/>
+        <x>0</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</application>
+        <file_path/>
+        <instance_id>133d329edb6ef110ae4c9027c59619e7</instance_id>
+        <instance_name>dev216782</instance_name>
+        <name>par_dashboard_widget_da90935ec3a396104a2d7c2ed4013139</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">8290935ec3a396104a2d7c2ed4013104</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"To Do","sourceType":"table","tableOrViewName":"x_1557963_to_do_0_to_do","filterQuery":"assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","id":"tablex_1557963_to_do_0_to_do1739027777625","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"All","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1557963_to_do_0_to_do1739027777625","id":"tablex_1557963_to_do_0_to_do17390277776251739027777628","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":true,"contextMenuActions":[],"componentId":"gq5jrcm0","id":"description","value":"","propLabel":"Description","showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT","description":""}</component_props><h>9</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-08 15:16:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>da90935ec3a396104a2d7c2ed4013139</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package><sys_policy/><sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope><sys_update_name>par_dashboard_widget_da90935ec3a396104a2d7c2ed4013139</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-08 15:45:06</sys_updated_on><visualization/><w>1</w><widget_props/><x>0</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1163540978</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5b7e64b5c363d2104a2d7c2ed4013163</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 15:45:06</sys_created_on>
+        <sys_id>90379756c3e396104a2d7c2ed40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e63c69e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 15:45:06</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>58379756e3e39610d67f1fb23a1ffcdd</update_guid>
+        <update_guid_history>58379756e3e39610d67f1fb23a1ffcdd:-1163540978,73051f9226e396109de806d5a46a953f:216078083,e9441f5223e39610f9ba9f09a3aa97e4:-2129001193,da90935e37a3961047fdb6e01b03b93a:-173538015</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">747e979ec3e396104a2d7c2ed40131de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 16:16:50</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1b29df245d5646e89ab6a316e59ebc10</sys_id>
+        <sys_metadata>da90935ec3a396104a2d7c2ed4013139</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_scope_delete display_value="">37862920a2144a6d8e3857ce522cd099</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_da90935ec3a396104a2d7c2ed4013139</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_da90935ec3a396104a2d7c2ed4013139">90379756c3e396104a2d7c2ed40131de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 16:16:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

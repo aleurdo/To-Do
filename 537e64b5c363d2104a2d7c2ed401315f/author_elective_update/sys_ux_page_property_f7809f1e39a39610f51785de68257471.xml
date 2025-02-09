@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>A default view for To Do Workspace generated</description>
+        <name>view</name>
+        <page display_value="">3f809f1e0fa39610247cb52231fddd7f</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 15:16:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>f7809f1e39a39610f51785de68257471</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>sys_ux_page_property_f7809f1e39a39610f51785de68257471</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 15:16:09</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1557963_to_do_0.3f809f1e0fa39610247cb52231fddd7f.root.view</unique_name>
+        <value>workspace-to-do-workspace-0</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</application>
+        <file_path/>
+        <instance_id>133d329edb6ef110ae4c9027c59619e7</instance_id>
+        <instance_name>dev216782</instance_name>
+        <name>sys_ux_page_property_f7809f1e39a39610f51785de68257471</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>A default view for To Do Workspace generated</description><name>view</name><page display_value="">3f809f1e0fa39610247cb52231fddd7f</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-08 15:16:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>f7809f1e39a39610f51785de68257471</sys_id><sys_mod_count>0</sys_mod_count><sys_name>view</sys_name><sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package><sys_policy/><sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope><sys_update_name>sys_ux_page_property_f7809f1e39a39610f51785de68257471</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-08 15:16:09</sys_updated_on><type>string</type><unique_name>x_1557963_to_do_0.3f809f1e0fa39610247cb52231fddd7f.root.view</unique_name><value>workspace-to-do-workspace-0</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1893129597</payload_hash>
+        <record_name>view</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 16:23:52</sys_created_on>
+        <sys_id>84106b12c32796104a2d7c2ed401315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e65fe6410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 16:23:52</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>44106b12bc279610b61e5644455b045d</update_guid>
+        <update_guid_history>44106b12bc279610b61e5644455b045d:1893129597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 16:23:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>67217ae268414ffea43e8b42f7896dc4</sys_id>
+        <sys_metadata>f7809f1e39a39610f51785de68257471</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_scope_delete display_value="">37862920a2144a6d8e3857ce522cd099</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_f7809f1e39a39610f51785de68257471</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_f7809f1e39a39610f51785de68257471">84106b12c32796104a2d7c2ed401315d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 16:23:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

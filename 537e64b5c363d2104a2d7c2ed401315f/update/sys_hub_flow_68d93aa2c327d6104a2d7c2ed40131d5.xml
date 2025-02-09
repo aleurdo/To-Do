@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=3459000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Send a reminder email to the Assigned to one day before the Due date</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>send_reminder_email_one_day_before_due_date</internal_name>
+        <label_cache>[{"name":"8f11b092-ffae-44b1-9e21-92464e45149a.item.project","label":"2 - For Each➛To Do Record➛Project","reference":"x_1557963_to_do_0_to_do_project","reference_display":"To Do Project","type":"reference","base_type":"reference","parent_table_name":"x_1557963_to_do_0_to_do","column_name":"project","usedInstances":{"e17c5320-4b71-44f6-b026-fe59b1b16937":[null]}},{"name":"Daily_1.run_start_date_time","label":"Trigger - Run Daily ➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"e17c5320-4b71-44f6-b026-fe59b1b16937":[null]},"attributes":{"test_input_hidden":"true"}},{"name":"8f11b092-ffae-44b1-9e21-92464e45149a.item.to_do_item","label":"2 - For Each➛To Do Record➛To do item","reference":"","reference_display":"To do item","type":"string","base_type":"string","parent_table_name":"x_1557963_to_do_0_to_do","column_name":"to_do_item","usedInstances":{"e17c5320-4b71-44f6-b026-fe59b1b16937":["ah_subject",null]}},{"name":"8f11b092-ffae-44b1-9e21-92464e45149a.item.assigned_to","label":"2 - For Each➛To Do Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1557963_to_do_0_to_do","column_name":"assigned_to","usedInstances":{"eb6222fd-1a7b-4232-9566-3e2d55bf41f7":["record"],"e17c5320-4b71-44f6-b026-fe59b1b16937":["record","ah_to",null]}},{"name":"8f11b092-ffae-44b1-9e21-92464e45149a.item","label":"2 - For Each➛To Do Record","reference":"x_1557963_to_do_0_to_do","reference_display":"To Do","type":"reference","base_type":"reference","usedInstances":{"eb6222fd-1a7b-4232-9566-3e2d55bf41f7":["record"],"e17c5320-4b71-44f6-b026-fe59b1b16937":["record","ah_to","ah_subject",null]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"90c56815-d49f-42e2-abb6-f725267a0296.Records","label":"1 - Look Up Records➛To Do Records","reference":"x_1557963_to_do_0_to_do","reference_display":"To Do","type":"records","base_type":"records","usedInstances":{"8f11b092-ffae-44b1-9e21-92464e45149a":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>8107c3a2c367d6104a2d7c2ed40131d3</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Send reminder email one day before Due date</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>8107c3a2c367d6104a2d7c2ed40131f3</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 08:15:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68d93aa2c327d6104a2d7c2ed40131d5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Send reminder email one day before Due date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>sys_hub_flow_68d93aa2c327d6104a2d7c2ed40131d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2025-02-09 09:12:55</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8107c3a2c367d6104a2d7c2ed40131f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <time>1970-01-01 09:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:8107c3a2c367d6104a2d7c2ed40131f3^sys_idNOT IN0d07c3a2c367d6104a2d7c2ed40131f3"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:8107c3a2c367d6104a2d7c2ed40131f3</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2025-02-09 09:12:55</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('8107c3a2c367d6104a2d7c2ed40131f3');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0d07c3a2c367d6104a2d7c2ed40131f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">8107c3a2c367d6104a2d7c2ed40131f3</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=68d93aa2c327d6104a2d7c2ed40131d5^sys_idNOT INe4d93aa2c327d6104a2d7c2ed40131d6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>68d93aa2c327d6104a2d7c2ed40131d5</id>
+        <name>Send reminder email one day before Due date</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 08:15:16</sys_created_on>
+        <sys_id>e4d93aa2c327d6104a2d7c2ed40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 08:15:16</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e4d93aa2c327d6104a2d7c2ed40131d6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=68d93aa2c327d6104a2d7c2ed40131d5^sys_idNOT IN4f1afea2c327d6104a2d7c2ed4013141"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">68d93aa2c327d6104a2d7c2ed40131d5</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 08:16:32</sys_created_on>
+        <sys_id>4f1afea2c327d6104a2d7c2ed4013141</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 08:18:35</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21STUvEMBD9K5LzWtJdP3sTZMGDCipeRMo0me4GpklM09Uq/ncnbVxULLnMm5k37z369CEIGiRRiQfToVgIYyMGC/QwemR0Q0ZjHedeB1ZDdGEUVQwDLoQLGoOoSikXYgc04P3YX2le42ELXSLIq1OXy/L8VB7Kkt+BLCsp+XHXQ+DpmLg+hNoa0gGtqJ6eWU+iW4E+Qq2kWi35k3J5dlQ2J6umXOoVIB4zxR8bv6/Hf8z81I5vEa1GPtUC9fiP04Cgby2N+4ktBzUb7eCtN++YqQK2yOIVzs19WWvTe4JxhtXWGYW3PhpnZyRCQ3lHORo6ezM74FpjCwPFxxwhI0PPfOiT5qQiS2rvt+717vvg2tjJYG6SU0D7CmIMphki9ilxJOyYqO7Ae2M3tQ9uZ6Zl1tIVU2xFS+6Vj/ZmYwtQSXjBEUGxZvxygh8hmOTimml4+XNyX78M6e7sIyuuZ9M8kENZG6T82/QqGB8v+MAOs9zP5y8XKoUMpwIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=68d93aa2c327d6104a2d7c2ed40131d5^sys_idNOT IN6d548faec327d6104a2d7c2ed40131e1,8d9a3ae2c327d6104a2d7c2ed4013178"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">68d93aa2c327d6104a2d7c2ed40131d5</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>8f11b092-ffae-44b1-9e21-92464e45149a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>6d548faec327d6104a2d7c2ed40131e1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:11:39</sys_updated_on>
+        <ui_id>e17c5320-4b71-44f6-b026-fe59b1b16937</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">68d93aa2c327d6104a2d7c2ed40131d5</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 08:18:35</sys_created_on>
+        <sys_id>8d9a3ae2c327d6104a2d7c2ed4013178</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 08:19:54</sys_updated_on>
+        <ui_id>90c56815-d49f-42e2-abb6-f725267a0296</ui_id>
+        <values>H4sIAAAAAAAA/9VX3U7bMBR+lSpXm1RVCWkL9GoTCGkXUAkQN4xZTuy03hw7s53+gHiXPcuebMdxkoa2QOk6BldVjs/Pd46/z3av7zxGvIF3kHR9Hwe9g33fD0Pf7/fDGAdRFPbjyI+6kdf2BE4peBoccQqfE8xz+z1DQa+3f9gPkZGISOS7X/AgTGccz69Kx0vZOrbmeMw4UVR4g+ubtpdhBXkNVd7gbmnJzDOKOI4ot9G2bOvMYmhvDPlB8GoLtkD1iYRLLRWxWPy2R2eGCkKhVIK5pm0vxYJgI9W8tiiKyVDwhWHMhIGMnnWeaXYL6Q9865dQaCumbq3+ROWInDkeSxbTYWaYFM7igLpFyfNUnLkG7HBpgnNuquGCJdeQj2YWswVRIkouxnJ6XhU8YaJor1zkMsa8/sLGKBblhmq7F5TTFBKhFGcZEyOUKTlhRTBgSTsjDh+dhMspFNVsJDo4tsA7MCLcOQH7cWG+worZLk4hDQQDIMZht5Ebupa5KqYyQTHPdbGgsNAul3dfzAr9zC1K13XZH3IjAgcdK5aZzxAwoWUr9+2NWN3zF5SIpSDM1tQNamuohRRNi6F9zSEHMSqn30gOk8aGDs8uZSqVktNP3/EEOySDke5EdMSEgKkNk8rjw8clH8jdXF3VyytX306WR825bTrztcHrNqIU6ANbKdBgZwIFuP9JonY735xCn9Oca/gZ4cX7T5Kgt9hvLZVBbnIN5a2qYWuGnjDKyYOLYwNwVfDQkq0VzR/DWxI0sTWWbpC9d3+DvEl6AiCC3LyZ4EwUFzgA3Q1v/acPr8MlHhTb37gvrA0O2VX24paRrdvtT9liXyv+bgCyCrwARK1Lh3IN8Op8rdKX1A13Rt1w72XUBeJc39Xo66mtGXD1TrNbV/nfWn+87A/sagQE9zc19Y+2qxm8tOaerbmkzfBF4mwyy60cP0KwHb8CHxFb+1+qewyhZT3kxIqmjIyoWVSvvIg0U8x/rFsv2VVrqGjvr1+U3Se11w8WOgMNwOtNw1Y1n5QBPDZWj4fg9y9n3+54+CIMHRXT2xRjFXmKZ63zGuRa5OUZweoaJam7O3yAvcb9Vk1+rXzqDXgXf6K2JfHNH7a170zuDwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=68d93aa2c327d6104a2d7c2ed40131d5^sys_idNOT INd0eabee2c327d6104a2d7c2ed4013126"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">54eabee2c327d6104a2d7c2ed4013125</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">68d93aa2c327d6104a2d7c2ed40131d5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 08:19:54</sys_created_on>
+        <sys_id>d0eabee2c327d6104a2d7c2ed4013126</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:54</sys_updated_on>
+        <ui_id>8f11b092-ffae-44b1-9e21-92464e45149a</ui_id>
+        <values>H4sIAAAAAAAA/51SwW7bMAz9F50Tw1YSt86twFCgh61AV/QyFAYt0YkwWdIkOaln+N9HxU429LiTzUfy8T2RI7N9dH0Mr/YhBHUwbP/jfcWUSRj9j8xAh2zPVMQusBU7ge5TPI5VLnblfbFby23Vrrcc+Rqaply3d3zHyzvIeVVmLyisl2GaqFWq4DQMb//PII5KS4+LSAeetEX0bD9+SsXBYa2hQU2DFgbqV5LCopJtVeSV2PByw/Oc32+Lptw0BZcbQFlS3bXzaTH96Q0SO4X+xkufpILnK4YfEY1EGtSCDrhiHRgJ0fqB7aPvCfAI8tno4VZxVCYSHUu1H0H9Ju4iz1Nhi+RI4Jy8hfXykDMsjlYJfHZRWTMjERq99Air+858m+WnFWALvY7XFRDSB+JDlzQnFYuk9vvRnl+uAx+VufhbktoK0LcIYvSq6SOGtAbU2BFR3YFzyhxq5+1JXZpJS5cdNAVZq+2ZhqZzy0Ak4Rk9EWSPhH+5wG/gVXLxlWioebq4r3/1ae7sY1Fcz6apIAivXHwguhMu4qb3dK8zU5gPQ6JQgQa+JuzpeuUpMdCSlfgXOlv/M0n9i01/ABrhJZIvAwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=68d93aa2c327d6104a2d7c2ed40131d5^sys_idNOT IN21548faec327d6104a2d7c2ed40131e5,29548faec327d6104a2d7c2ed40131e6,2d548faec327d6104a2d7c2ed40131e5,65548faec327d6104a2d7c2ed40131e6,69548faec327d6104a2d7c2ed40131e5,6d548faec327d6104a2d7c2ed40131e4,a1548faec327d6104a2d7c2ed40131e6,a5548faec327d6104a2d7c2ed40131e5,a9548faec327d6104a2d7c2ed40131e4,aeb64f62c367d6104a2d7c2ed4013173,e1548faec327d6104a2d7c2ed40131e5,e5548faec327d6104a2d7c2ed40131e4,eab64f62c367d6104a2d7c2ed4013173,ed548faec327d6104a2d7c2ed40131e3,ed548faec327d6104a2d7c2ed40131e5"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>21548faec327d6104a2d7c2ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5ac2f6d8-9e66-4432-bb95-ea7b51b7f55e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>29548faec327d6104a2d7c2ed40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1294d799-4bca-47a0-a0fa-e1067fb7aa14</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>2d548faec327d6104a2d7c2ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ebf0e679-23bc-41b2-b5b8-2578901d6678</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>65548faec327d6104a2d7c2ed40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>32064123-1495-4337-bb69-ebeaa9d7ac61</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>69548faec327d6104a2d7c2ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1b46f831-e1c6-4fe5-bd36-2d69581c31f3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.assigned_to}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>6d548faec327d6104a2d7c2ed40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d84ecba1-ea48-471e-95ee-2c3f46f7447d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>a1548faec327d6104a2d7c2ed40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c6aacd7c-6f9e-47cb-824c-fe33285058a7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Daily_1.run_start_date_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>a5548faec327d6104a2d7c2ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>538e3d84-0fd8-4c43-a5ff-7121ceb897f9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>a9548faec327d6104a2d7c2ed40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e18dc4a3-f28e-4183-b3b0-1058b2de046e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:11:39</sys_created_on>
+        <sys_id>aeb64f62c367d6104a2d7c2ed4013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:11:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>33482a4e-11fd-4968-ab83-76cb944e01e3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.assigned_to}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>e1548faec327d6104a2d7c2ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4ca6a105-3573-4aa8-b539-019bef29f9a6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.assigned_to}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>e5548faec327d6104a2d7c2ed40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>18f8fd83-736a-4fd5-b825-f61473b01c53</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:11:39</sys_created_on>
+        <sys_id>eab64f62c367d6104a2d7c2ed4013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:11:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2ba29fab-180d-4a08-a7e6-fe85e4d977b4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>ed548faec327d6104a2d7c2ed40131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c3db2e3d-90b1-4e30-bcfc-a9779dad374b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>68d93aa2c327d6104a2d7c2ed40131d5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.to_do_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:01:12</sys_created_on>
+        <sys_id>ed548faec327d6104a2d7c2ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2a457c4b-d779-4065-ba15-14bafb2e982d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_68d93aa2c327d6104a2d7c2ed40131d5"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>Send a reminder email to the Assigned to one day before the Due date</description>
+        <flow_priority/>
+        <internal_name>send_reminder_email_one_day_before_due_date</internal_name>
+        <label_cache>[{"name":"8f11b092-ffae-44b1-9e21-92464e45149a.item.project","label":"2 - For Each➛To Do Record➛Project","reference":"x_1557963_to_do_0_to_do_project","reference_display":"To Do Project","type":"reference","base_type":"reference","parent_table_name":"x_1557963_to_do_0_to_do","column_name":"project","usedInstances":{"e17c5320-4b71-44f6-b026-fe59b1b16937":[null]}},{"name":"Daily_1.run_start_date_time","label":"Trigger - Run Daily ➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"e17c5320-4b71-44f6-b026-fe59b1b16937":[null]},"attributes":{"test_input_hidden":"true"}},{"name":"8f11b092-ffae-44b1-9e21-92464e45149a.item.to_do_item","label":"2 - For Each➛To Do Record➛To do item","reference":"","reference_display":"To do item","type":"string","base_type":"string","parent_table_name":"x_1557963_to_do_0_to_do","column_name":"to_do_item","usedInstances":{"e17c5320-4b71-44f6-b026-fe59b1b16937":["ah_subject",null]}},{"name":"8f11b092-ffae-44b1-9e21-92464e45149a.item.assigned_to","label":"2 - For Each➛To Do Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1557963_to_do_0_to_do","column_name":"assigned_to","usedInstances":{"eb6222fd-1a7b-4232-9566-3e2d55bf41f7":["record"],"e17c5320-4b71-44f6-b026-fe59b1b16937":["record","ah_to",null]}},{"name":"8f11b092-ffae-44b1-9e21-92464e45149a.item","label":"2 - For Each➛To Do Record","reference":"x_1557963_to_do_0_to_do","reference_display":"To Do","type":"reference","base_type":"reference","usedInstances":{"eb6222fd-1a7b-4232-9566-3e2d55bf41f7":["record"],"e17c5320-4b71-44f6-b026-fe59b1b16937":["record","ah_to","ah_subject",null]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"90c56815-d49f-42e2-abb6-f725267a0296.Records","label":"1 - Look Up Records➛To Do Records","reference":"x_1557963_to_do_0_to_do","reference_display":"To Do","type":"records","base_type":"records","usedInstances":{"8f11b092-ffae-44b1-9e21-92464e45149a":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Send reminder email one day before Due date</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Send reminder email one day before Due date">68d93aa2c327d6104a2d7c2ed40131d5</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8107c3a2c367d6104a2d7c2ed40131d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8107c3a2c367d6104a2d7c2ed40131d3^sys_idNOT IN4d07c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8107c3a2c367d6104a2d7c2ed40131d3</id>
+        <name>Send reminder email one day before Due date</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>4d07c3a2c367d6104a2d7c2ed40131d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4d07c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8107c3a2c367d6104a2d7c2ed40131d3^sys_idNOT IN8d07c3a2c367d6104a2d7c2ed40131de"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">8107c3a2c367d6104a2d7c2ed40131d3</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8d07c3a2c367d6104a2d7c2ed40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21STUvEMBD9K5LzWtJdP3sTZMGDCipeRMo0me4GpklM09Uq/ncnbVxULLnMm5k37z369CEIGiRRiQfToVgIYyMGC/QwemR0Q0ZjHedeB1ZDdGEUVQwDLoQLGoOoSikXYgc04P3YX2le42ELXSLIq1OXy/L8VB7Kkt+BLCsp+XHXQ+DpmLg+hNoa0gGtqJ6eWU+iW4E+Qq2kWi35k3J5dlQ2J6umXOoVIB4zxR8bv6/Hf8z81I5vEa1GPtUC9fiP04Cgby2N+4ktBzUb7eCtN++YqQK2yOIVzs19WWvTe4JxhtXWGYW3PhpnZyRCQ3lHORo6ezM74FpjCwPFxxwhI0PPfOiT5qQiS2rvt+717vvg2tjJYG6SU0D7CmIMphki9ilxJOyYqO7Ae2M3tQ9uZ6Zl1tIVU2xFS+6Vj/ZmYwtQSXjBEUGxZvxygh8hmOTimml4+XNyX78M6e7sIyuuZ9M8kENZG6T82/QqGB8v+MAOs9zP5y8XKoUMpwIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8107c3a2c367d6104a2d7c2ed40131d3^sys_idNOT IN8d07c3a2c367d6104a2d7c2ed40131db,c507c3a2c367d6104a2d7c2ed40131de"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">8107c3a2c367d6104a2d7c2ed40131d3</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8d07c3a2c367d6104a2d7c2ed40131db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <ui_id>90c56815-d49f-42e2-abb6-f725267a0296</ui_id>
+        <values>H4sIAAAAAAAA/+VX3U7bMBR+lSpXm1RVCWkL9GoTFdIkoBIgbhiznNhpvbl2Zjv9AfVd9ix7sh3HSRq1gbVSmUC7qnzOsc93vnM+x71/8hjxBt5J0vV9HPROjn0/DH2/3w9jHERR2I8jP+pGXtsTeEoh0uCIU1jOMM/seoGCXu/4tB8iIxGRyHe/EEGYTjle3hWBt7I1tOZ4wjhRVHiD+4e2l2IF5xqqvMHThmtXYBxHlNsEBbINoGaZVkuU+5ztor6tdeUcUhELxW97dGGoIBQwJJhr2vamWBBspFpWFkUxGQm+NkyYMHCiZ4MXmj1C3hPfxiUUqoqp81VLVDDkzMkQG3xjVBabTBWh8USymGrHB6EJzrg5q9tcwCg1TAq3xZXtdkueTcWVo8OrDigbApZMAwia2kIt8qKM5GYi59clynMmck4KJ5cx5tUKG6NYlBmL58mjnE7hIDTFacrEGKVKzli+GbBMO2MOi07C5RySajYWHRxb4B3gFXfOwT7MzXdYMVvFJRwDmwEQ4zAhyLVQy0zlVM5QzDOdOxQW2p3lrdqeXuozjrVeVw6Uo5+Zxe14KCpGjjS7JVYsNZ/hiBktilu1d9JGz1+PXCwFYRaFrglEQy6k6DSn8WsGZxBoMv1GMuAeGzq6upVTqZScf/qOZ9ghGYx1J6JjJgTwOErKiA8fN2Lg7Lp3W3X/OPshxZ0zW4r7rE5tE92FzLdsF00HFDIPDiZzqOM9Cd2OwJvT+f7KdRT8Rb7x8YtD1lvPk5bKIMdlTb/bmtp7zneAUM75yE5mK1o+h6oY84RRTpq+ZufWsfE1O/o/v2ZvcsgBEEGue0xwJvKnCQB9ren3X75iTzfmLB+v2rfL2uDC39YAbhnZetxbCTvAKZVwA7lbtw5PA8Tyvs9HZvOuL42FAMKDCSA8OowAnqoyKyIbOC9fo7abZfyjjceb8TCCtQ3Bqklge+UM9s15tNoWcLiXguvD5jzDZ2buwM/WZxTZfs0rYAJbi3zI6RfNGRlTs85eRhFp5pj/aPIXE4fKRuXlvcITuPuibPvBWqKgFHhuamhe/Q0cwPNo+w4Jfv9y9v3ukB3AlHxc4kXrukLTCLG4R0DqdJw3p36RfKmsxZR3D/hifLOf0rJbjSKsmvYu/jseTgoPfwCtew50KxEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">8107c3a2c367d6104a2d7c2ed40131d3</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>8f11b092-ffae-44b1-9e21-92464e45149a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>c507c3a2c367d6104a2d7c2ed40131de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <ui_id>e17c5320-4b71-44f6-b026-fe59b1b16937</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8107c3a2c367d6104a2d7c2ed40131d3^sys_idNOT IN4907c3a2c367d6104a2d7c2ed40131da"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">54eabee2c327d6104a2d7c2ed4013125</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">8107c3a2c367d6104a2d7c2ed40131d3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>4907c3a2c367d6104a2d7c2ed40131da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <ui_id>8f11b092-ffae-44b1-9e21-92464e45149a</ui_id>
+        <values>H4sIAAAAAAAA/51TwW6jMBD9F58JApLQklvVqlKl3VZKq15WVTTYQ2KtsVnbJKWIf99xILTqsSeY55k37z1Mz0zrm9a7F3PjnNxrtvnzFjGpA0bvPdNQI9sw6bF2LGJHUG2o+75I+Dq/TtcLsSqqxSrDbAFlmS+qq2yd5VeQZEUeb5EbK9ww0KiQrlHQvf6cgR+kEhYnkQ1Y0ubRsk3/7UgKWpAWoirSpODLLF9mSZJdr9IyX5ZpJpaAIidCBSUqan2Y3H0z67smlHaUMAG/ppntjNIjiMiSiOG7Ry2Q1legHEasBi3AG9uxjbctARZBPGnVzR0HqT3RsdD77uQHbUyTJDRWSIY4jodzuZtyHOHqDjw8EzX3rZ1a+cFIjm6MQmAFrfK3X7Gx4anx0uhxxEOpLtNGtbV+HJNgM8HlsxHSOhKBTTAapE8+queDOW0vKu+lPocyHSrDQc0VeG9l2fqgp2eosCaiXQ1NI/V+11hzlOdh0lLHe0VFXClzoqXhisbAg/CYcoX4nvC7M/wKVgYXv4mGhoeIuc7dKnDu0wuFuPvXBiWjs8nDbowhjHArG39DC444yR3ewq0fuedMuXQk4SVgD5d/JRx0dIMk/wqdjP0bxH9iw3/Zl14/dQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8107c3a2c367d6104a2d7c2ed40131d3^sys_idNOT IN0107c3a2c367d6104a2d7c2ed40131df,0107c3a2c367d6104a2d7c2ed40131e0,0507c3a2c367d6104a2d7c2ed40131df,0507c3a2c367d6104a2d7c2ed40131e0,0907c3a2c367d6104a2d7c2ed40131df,0907c3a2c367d6104a2d7c2ed40131e0,0d07c3a2c367d6104a2d7c2ed40131df,0d07c3a2c367d6104a2d7c2ed40131e0,8107c3a2c367d6104a2d7c2ed40131df,8107c3a2c367d6104a2d7c2ed40131e0,8507c3a2c367d6104a2d7c2ed40131df,8507c3a2c367d6104a2d7c2ed40131e0,8907c3a2c367d6104a2d7c2ed40131df,8907c3a2c367d6104a2d7c2ed40131e0,8d07c3a2c367d6104a2d7c2ed40131df"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0107c3a2c367d6104a2d7c2ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>33482a4e-11fd-4968-ab83-76cb944e01e3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.assigned_to}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0107c3a2c367d6104a2d7c2ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d84ecba1-ea48-471e-95ee-2c3f46f7447d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0507c3a2c367d6104a2d7c2ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c3db2e3d-90b1-4e30-bcfc-a9779dad374b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0507c3a2c367d6104a2d7c2ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e18dc4a3-f28e-4183-b3b0-1058b2de046e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0907c3a2c367d6104a2d7c2ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2ba29fab-180d-4a08-a7e6-fe85e4d977b4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0907c3a2c367d6104a2d7c2ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>32064123-1495-4337-bb69-ebeaa9d7ac61</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0d07c3a2c367d6104a2d7c2ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c6aacd7c-6f9e-47cb-824c-fe33285058a7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Daily_1.run_start_date_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>0d07c3a2c367d6104a2d7c2ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>538e3d84-0fd8-4c43-a5ff-7121ceb897f9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.to_do_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8107c3a2c367d6104a2d7c2ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2a457c4b-d779-4065-ba15-14bafb2e982d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8107c3a2c367d6104a2d7c2ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1294d799-4bca-47a0-a0fa-e1067fb7aa14</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8507c3a2c367d6104a2d7c2ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ebf0e679-23bc-41b2-b5b8-2578901d6678</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.assigned_to}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8507c3a2c367d6104a2d7c2ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>18f8fd83-736a-4fd5-b825-f61473b01c53</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8907c3a2c367d6104a2d7c2ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1b46f831-e1c6-4fe5-bd36-2d69581c31f3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8907c3a2c367d6104a2d7c2ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5ac2f6d8-9e66-4432-bb95-ea7b51b7f55e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8107c3a2c367d6104a2d7c2ed40131d3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8f11b092-ffae-44b1-9e21-92464e45149a.item.assigned_to}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_id>8d07c3a2c367d6104a2d7c2ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4ca6a105-3573-4aa8-b539-019bef29f9a6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8107c3a2c367d6104a2d7c2ed40131d3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>68d93aa2c327d6104a2d7c2ed40131d5</sys_id>
+        <latest_snapshot>8107c3a2c367d6104a2d7c2ed40131d3</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=68d93aa2c327d6104a2d7c2ed40131d5^sys_idNOT IN8507c3a2c367d6104a2d7c2ed40131f6"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>68d93aa2c327d6104a2d7c2ed40131d5</plan_id>
+        <snapshot>8107c3a2c367d6104a2d7c2ed40131d3</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 09:12:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8507c3a2c367d6104a2d7c2ed40131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 09:12:55</sys_updated_on>
+        <trigger display_value="">8107c3a2c367d6104a2d7c2ed40131f3</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=68d93aa2c327d6104a2d7c2ed40131d5"/>
+</record_update>

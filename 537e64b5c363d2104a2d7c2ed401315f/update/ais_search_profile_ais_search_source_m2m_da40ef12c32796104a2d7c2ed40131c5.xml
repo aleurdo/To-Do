@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="to-do-armina-leurdo-workspace Search Profile">9540af12ed279610df9b785fa34b915e</profile>
+        <search_source display_value="To Do">8190135ec3a396104a2d7c2ed401312f</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 16:24:51</sys_created_on>
+        <sys_id>da40ef12c32796104a2d7c2ed40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>to-do-armina-leurdo-workspace Search Profile.To Do</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_da40ef12c32796104a2d7c2ed40131c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 16:24:51</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

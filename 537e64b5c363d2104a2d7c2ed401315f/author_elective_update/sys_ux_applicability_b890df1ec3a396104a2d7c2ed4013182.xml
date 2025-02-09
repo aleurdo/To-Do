@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_1557963_to_do_0.Audience for app to-do-workspace</api_name>
+        <description/>
+        <name>Audience for app to-do-workspace</name>
+        <role_names/>
+        <roles>5b7e64b5c363d2104a2d7c2ed4013181,d37e64b5c363d2104a2d7c2ed4013188</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 15:16:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b890df1ec3a396104a2d7c2ed4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app to-do-workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>sys_ux_applicability_b890df1ec3a396104a2d7c2ed4013182</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 15:16:12</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</application>
+        <file_path/>
+        <instance_id>133d329edb6ef110ae4c9027c59619e7</instance_id>
+        <instance_name>dev216782</instance_name>
+        <name>sys_ux_applicability_b890df1ec3a396104a2d7c2ed4013182</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_1557963_to_do_0.Audience for app to-do-workspace</api_name><description/><name>Audience for app to-do-workspace</name><role_names/><roles>5b7e64b5c363d2104a2d7c2ed4013181,d37e64b5c363d2104a2d7c2ed4013188</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-08 15:16:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b890df1ec3a396104a2d7c2ed4013182</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Audience for app to-do-workspace</sys_name><sys_overrides/><sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package><sys_policy/><sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope><sys_update_name>sys_ux_applicability_b890df1ec3a396104a2d7c2ed4013182</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-08 15:16:12</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>118805741</payload_hash>
+        <record_name>Audience for app to-do-workspace</record_name>
+        <reverted_from/>
+        <source>5b7e64b5c363d2104a2d7c2ed4013163</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 15:16:12</sys_created_on>
+        <sys_id>3c90df1ec3a396104a2d7c2ed4013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e621f3bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 15:16:12</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>fc90df1e23a39610945527c9045bc585</update_guid>
+        <update_guid_history>fc90df1e23a39610945527c9045bc585:118805741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 16:23:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>259087e0158e4a40b26e6e67d63d2400</sys_id>
+        <sys_metadata>b890df1ec3a396104a2d7c2ed4013182</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app to-do-workspace</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_scope_delete display_value="">37862920a2144a6d8e3857ce522cd099</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_b890df1ec3a396104a2d7c2ed4013182</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_b890df1ec3a396104a2d7c2ed4013182">3c90df1ec3a396104a2d7c2ed4013186</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 16:23:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

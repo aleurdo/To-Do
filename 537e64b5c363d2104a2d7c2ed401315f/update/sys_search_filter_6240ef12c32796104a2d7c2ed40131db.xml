@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="To Do Project">dd90135ec3a396104a2d7c2ed4013155</ais_search_source>
+        <label>To Do Project</label>
+        <name>To Do Project</name>
+        <order>200</order>
+        <search_context_config display_value="To Do (Armina Leurdo) Workspace AI Search Configuration">d540af12772796109f56b072f68bc757</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 16:24:51</sys_created_on>
+        <sys_id>6240ef12c32796104a2d7c2ed40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To Do Project</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>sys_search_filter_6240ef12c32796104a2d7c2ed40131db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 16:24:51</sys_updated_on>
+    </sys_search_filter>
+</record_update>
