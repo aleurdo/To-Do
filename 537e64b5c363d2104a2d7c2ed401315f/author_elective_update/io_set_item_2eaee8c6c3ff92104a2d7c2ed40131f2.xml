@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Temporary Hardware Request (Armina Leurdo)">15430c82c33f92104a2d7c2ed401312d</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 19:06:00</sys_created_on>
+        <sys_id>2eaee8c6c3ff92104a2d7c2ed40131f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Additional Info.Temporary Hardware Request (Armina Leurdo)</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>io_set_item_2eaee8c6c3ff92104a2d7c2ed40131f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 19:06:01</sys_updated_on>
+        <variable_set display_value="Additional Info">aa7e68c6c3ff92104a2d7c2ed4013122</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</application>
+        <file_path/>
+        <instance_id>133d329edb6ef110ae4c9027c59619e7</instance_id>
+        <instance_name>dev216782</instance_name>
+        <name>io_set_item_2eaee8c6c3ff92104a2d7c2ed40131f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Temporary Hardware Request (Armina Leurdo)">15430c82c33f92104a2d7c2ed401312d</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-19 19:06:00</sys_created_on><sys_id>2eaee8c6c3ff92104a2d7c2ed40131f2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Additional Info.Temporary Hardware Request (Armina Leurdo)</sys_name><sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package><sys_policy/><sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope><sys_update_name>io_set_item_2eaee8c6c3ff92104a2d7c2ed40131f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-19 19:06:01</sys_updated_on><variable_set display_value="Additional Info">aa7e68c6c3ff92104a2d7c2ed4013122</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-259018928</payload_hash>
+        <record_name>Additional Info.Temporary Hardware Request (Armina Leurdo)</record_name>
+        <reverted_from/>
+        <source>a17bc3a6c367d6104a2d7c2ed40131c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 19:06:01</sys_created_on>
+        <sys_id>aaaee00ac3ff92104a2d7c2ed40131bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1951f9a504f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 19:06:01</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>aeaee00a3aff9210de77f3bf60c6c7be</update_guid>
+        <update_guid_history>aeaee00a3aff9210de77f3bf60c6c7be:-259018928</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Additional Info.Temporary Hardware Request (Armina Leurdo)">6f597846c333d2104a2d7c2ed40131b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 19:52:47</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>87e55de1c4694c72804b0f9a66092de4</sys_id>
+        <sys_metadata>2eaee8c6c3ff92104a2d7c2ed40131f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Info.Temporary Hardware Request (Armina Leurdo)</sys_name>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_scope_delete display_value="">37862920a2144a6d8e3857ce522cd099</sys_scope_delete>
+        <sys_update_name>io_set_item_2eaee8c6c3ff92104a2d7c2ed40131f2</sys_update_name>
+        <sys_update_version display_value="io_set_item_2eaee8c6c3ff92104a2d7c2ed40131f2">aaaee00ac3ff92104a2d7c2ed40131bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 19:52:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

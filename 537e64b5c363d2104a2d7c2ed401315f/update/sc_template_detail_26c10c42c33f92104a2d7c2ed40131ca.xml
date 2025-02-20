@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template_detail">
+    <sc_template_detail action="INSERT_OR_UPDATE">
+        <applies_to_multi_row_variable_set>false</applies_to_multi_row_variable_set>
+        <item_option_new display_value="Selected flow">5a0441b673221010c84e2bb43cf6a7dd</item_option_new>
+        <mandatory>false</mandatory>
+        <readonly>true</readonly>
+        <restricted>false</restricted>
+        <set/>
+        <sys_class_name>sc_template_detail</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 15:49:57</sys_created_on>
+        <sys_id>26c10c42c33f92104a2d7c2ed40131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="To Do (Armina Leurdo)" source="x_1557963_to_do_0">537e64b5c363d2104a2d7c2ed401315f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do (Armina Leurdo)">537e64b5c363d2104a2d7c2ed401315f</sys_scope>
+        <sys_update_name>sc_template_detail_26c10c42c33f92104a2d7c2ed40131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 15:49:57</sys_updated_on>
+        <template display_value="Temporary Hardware Request (Armina Leurdo)">d941c042c33f92104a2d7c2ed401313f</template>
+        <value/>
+    </sc_template_detail>
+</record_update>
